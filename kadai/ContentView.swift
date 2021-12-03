@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var sum = 0
     var body: some View {
-        Text("Hello, world!")
+        VStack {
+            Text(String(sum))
+                .padding()
+            Button("+1") {
+                sum += 1
+            }
             .padding()
+            Button("Clear") {
+                sum = 0
+            }
+        }
     }
 }
 
