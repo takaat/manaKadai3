@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFAD755A275122DE00B1DB7B /* kadaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD7559275122DE00B1DB7B /* kadaiApp.swift */; };
-		BFAD755C275122DE00B1DB7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD755B275122DE00B1DB7B /* ContentView.swift */; };
-		BFAD755E275122E000B1DB7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAD755D275122E000B1DB7B /* Assets.xcassets */; };
-		BFAD7561275122E000B1DB7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAD7560275122E000B1DB7B /* Preview Assets.xcassets */; };
+		BF337898275C56600023AB0B /* Kadai_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF337897275C56600023AB0B /* Kadai_2App.swift */; };
+		BF33789A275C56600023AB0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF337899275C56600023AB0B /* ContentView.swift */; };
+		BF33789C275C56650023AB0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF33789B275C56650023AB0B /* Assets.xcassets */; };
+		BF33789F275C56650023AB0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF33789E275C56650023AB0B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BFAD7556275122DE00B1DB7B /* kadai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kadai.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFAD7559275122DE00B1DB7B /* kadaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadaiApp.swift; sourceTree = "<group>"; };
-		BFAD755B275122DE00B1DB7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BFAD755D275122E000B1DB7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFAD7560275122E000B1DB7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF337894275C56600023AB0B /* Kadai#2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kadai#2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF337897275C56600023AB0B /* Kadai_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai_2App.swift; sourceTree = "<group>"; };
+		BF337899275C56600023AB0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF33789B275C56650023AB0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF33789E275C56650023AB0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BFAD7553275122DE00B1DB7B /* Frameworks */ = {
+		BF337891275C56600023AB0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BFAD754D275122DE00B1DB7B = {
+		BF33788B275C56600023AB0B = {
 			isa = PBXGroup;
 			children = (
-				BFAD7558275122DE00B1DB7B /* kadai */,
-				BFAD7557275122DE00B1DB7B /* Products */,
+				BF337896275C56600023AB0B /* Kadai#2 */,
+				BF337895275C56600023AB0B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BFAD7557275122DE00B1DB7B /* Products */ = {
+		BF337895275C56600023AB0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFAD7556275122DE00B1DB7B /* kadai.app */,
+				BF337894275C56600023AB0B /* Kadai#2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BFAD7558275122DE00B1DB7B /* kadai */ = {
+		BF337896275C56600023AB0B /* Kadai#2 */ = {
 			isa = PBXGroup;
 			children = (
-				BFAD7559275122DE00B1DB7B /* kadaiApp.swift */,
-				BFAD755B275122DE00B1DB7B /* ContentView.swift */,
-				BFAD755D275122E000B1DB7B /* Assets.xcassets */,
-				BFAD755F275122E000B1DB7B /* Preview Content */,
+				BF337897275C56600023AB0B /* Kadai_2App.swift */,
+				BF337899275C56600023AB0B /* ContentView.swift */,
+				BF33789B275C56650023AB0B /* Assets.xcassets */,
+				BF33789D275C56650023AB0B /* Preview Content */,
 			);
-			path = kadai;
+			path = "Kadai#2";
 			sourceTree = "<group>";
 		};
-		BFAD755F275122E000B1DB7B /* Preview Content */ = {
+		BF33789D275C56650023AB0B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				BFAD7560275122E000B1DB7B /* Preview Assets.xcassets */,
+				BF33789E275C56650023AB0B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,40 +70,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFAD7555275122DE00B1DB7B /* kadai */ = {
+		BF337893275C56600023AB0B /* Kadai#2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFAD7564275122E000B1DB7B /* Build configuration list for PBXNativeTarget "kadai" */;
+			buildConfigurationList = BF3378A2275C56650023AB0B /* Build configuration list for PBXNativeTarget "Kadai#2" */;
 			buildPhases = (
-				BFAD7552275122DE00B1DB7B /* Sources */,
-				BFAD7553275122DE00B1DB7B /* Frameworks */,
-				BFAD7554275122DE00B1DB7B /* Resources */,
-				BFAD75672751236400B1DB7B /* ShellScript */,
+				BF337890275C56600023AB0B /* Sources */,
+				BF337891275C56600023AB0B /* Frameworks */,
+				BF337892275C56600023AB0B /* Resources */,
+				BF3378A5275C58280023AB0B /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = kadai;
-			productName = kadai;
-			productReference = BFAD7556275122DE00B1DB7B /* kadai.app */;
+			name = "Kadai#2";
+			productName = "Kadai#2";
+			productReference = BF337894275C56600023AB0B /* Kadai#2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BFAD754E275122DE00B1DB7B /* Project object */ = {
+		BF33788C275C56600023AB0B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					BFAD7555275122DE00B1DB7B = {
+					BF337893275C56600023AB0B = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = BFAD7551275122DE00B1DB7B /* Build configuration list for PBXProject "kadai" */;
+			buildConfigurationList = BF33788F275C56600023AB0B /* Build configuration list for PBXProject "Kadai#2" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,30 +111,30 @@
 				en,
 				Base,
 			);
-			mainGroup = BFAD754D275122DE00B1DB7B;
-			productRefGroup = BFAD7557275122DE00B1DB7B /* Products */;
+			mainGroup = BF33788B275C56600023AB0B;
+			productRefGroup = BF337895275C56600023AB0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFAD7555275122DE00B1DB7B /* kadai */,
+				BF337893275C56600023AB0B /* Kadai#2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BFAD7554275122DE00B1DB7B /* Resources */ = {
+		BF337892275C56600023AB0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFAD7561275122E000B1DB7B /* Preview Assets.xcassets in Resources */,
-				BFAD755E275122E000B1DB7B /* Assets.xcassets in Resources */,
+				BF33789F275C56650023AB0B /* Preview Assets.xcassets in Resources */,
+				BF33789C275C56650023AB0B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BFAD75672751236400B1DB7B /* ShellScript */ = {
+		BF3378A5275C58280023AB0B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -154,19 +154,19 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BFAD7552275122DE00B1DB7B /* Sources */ = {
+		BF337890275C56600023AB0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFAD755C275122DE00B1DB7B /* ContentView.swift in Sources */,
-				BFAD755A275122DE00B1DB7B /* kadaiApp.swift in Sources */,
+				BF33789A275C56600023AB0B /* ContentView.swift in Sources */,
+				BF337898275C56600023AB0B /* Kadai_2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BFAD7562275122E000B1DB7B /* Debug */ = {
+		BF3378A0275C56650023AB0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		BFAD7563275122E000B1DB7B /* Release */ = {
+		BF3378A1275C56650023AB0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,14 +282,14 @@
 			};
 			name = Release;
 		};
-		BFAD7565275122E000B1DB7B /* Debug */ = {
+		BF3378A3275C56650023AB0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"kadai/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Kadai#2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = deve21.app.ios.kadai;
+				PRODUCT_BUNDLE_IDENTIFIER = "deve21.app.ios.Kadai-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,14 +310,14 @@
 			};
 			name = Debug;
 		};
-		BFAD7566275122E000B1DB7B /* Release */ = {
+		BF3378A4275C56650023AB0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"kadai/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Kadai#2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -330,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = deve21.app.ios.kadai;
+				PRODUCT_BUNDLE_IDENTIFIER = "deve21.app.ios.Kadai-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,25 +341,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFAD7551275122DE00B1DB7B /* Build configuration list for PBXProject "kadai" */ = {
+		BF33788F275C56600023AB0B /* Build configuration list for PBXProject "Kadai#2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFAD7562275122E000B1DB7B /* Debug */,
-				BFAD7563275122E000B1DB7B /* Release */,
+				BF3378A0275C56650023AB0B /* Debug */,
+				BF3378A1275C56650023AB0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFAD7564275122E000B1DB7B /* Build configuration list for PBXNativeTarget "kadai" */ = {
+		BF3378A2275C56650023AB0B /* Build configuration list for PBXNativeTarget "Kadai#2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFAD7565275122E000B1DB7B /* Debug */,
-				BFAD7566275122E000B1DB7B /* Release */,
+				BF3378A3275C56650023AB0B /* Debug */,
+				BF3378A4275C56650023AB0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BFAD754E275122DE00B1DB7B /* Project object */;
+	rootObject = BF33788C275C56600023AB0B /* Project object */;
 }

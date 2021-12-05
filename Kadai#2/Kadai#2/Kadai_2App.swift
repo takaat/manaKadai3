@@ -1,14 +1,14 @@
 //
-//  kadaiApp.swift
-//  kadai
+//  Kadai_2App.swift
+//  Kadai#2
 //
-//  Created by 上田学 on 2021/11/26.
+//  Created by mana on 2021/12/05.
 //
 
 import SwiftUI
 
 @main
-struct KadaiApp: App {
+struct Kadai2App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
