@@ -19,8 +19,8 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 10) {
             HStack {
-                InputLeftView(inputLeftNumber: $inputLeftNumber, isLeftSign: $isLeftSign)
-                InputRightView(inputRightNumber: $inputRightNumber, isRightSign: $isRightSign)
+                InputView(inputNumber: $inputLeftNumber, isSign: $isLeftSign)
+                InputView(inputNumber: $inputRightNumber, isSign: $isRightSign)
             }
             Button(action: {
                 calculation()

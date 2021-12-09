@@ -7,39 +7,19 @@
 
 import SwiftUI
 
-struct InputLeftView: View {
-    @Binding  var inputLeftNumber: Int?
-    @Binding  var isLeftSign: Bool
+struct InputView: View {
+    @Binding  var inputNumber: Int?
+    @Binding  var isSign: Bool
 
     var body: some View {
         VStack {
-            TextField("", value: $inputLeftNumber, format: .number)
+            TextField("", value: $inputNumber, format: .number)
                 .frame(width: 120.0, height: 50.0)
                 .border(.secondary)
                 .keyboardType(/*@START_MENU_TOKEN@*/.numberPad/*@END_MENU_TOKEN@*/)
             HStack(spacing: 20) {
                 Text("+")
-                Toggle("+", isOn: $isLeftSign)
-                    .labelsHidden()
-                Text("-")
-            }
-        }
-    }
-}
-
-struct InputRightView: View {
-    @Binding  var inputRightNumber: Int?
-    @Binding  var isRightSign: Bool
-
-    var body: some View {
-        VStack {
-            TextField("", value: $inputRightNumber, format: .number)
-                .frame(width: 120.0, height: 50.0)
-                .border(.secondary)
-                .keyboardType(/*@START_MENU_TOKEN@*/.numberPad/*@END_MENU_TOKEN@*/)
-            HStack(spacing: 20) {
-                Text("+")
-                Toggle("+", isOn: $isRightSign)
+                Toggle("+", isOn: $isSign)
                     .labelsHidden()
                 Text("-")
             }
