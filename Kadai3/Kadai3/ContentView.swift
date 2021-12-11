@@ -34,16 +34,9 @@ struct ContentView: View {
         let inputLeftNumber = inputLeftNumber ?? 0
         let inputRightNumber = inputRightNumber ?? 0
 
-        if isLeftSign {
-            outputLeftNumber = -inputLeftNumber
-        } else {
-            outputLeftNumber = inputLeftNumber
-        }
-        if isRightSign {
-            outputRightNumber = -inputRightNumber
-        } else {
-            outputRightNumber = inputRightNumber
-        }
+        outputLeftNumber = inputLeftNumber * (isLeftSign ? -1 : 1)
+        outputRightNumber = inputRightNumber * (isRightSign ? -1 : 1)
+
         displayAnswer = outputLeftNumber + outputRightNumber
     }
 }
